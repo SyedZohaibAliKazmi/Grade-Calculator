@@ -7,8 +7,8 @@ function enter() {
   // Given value is identify by 'free'
 
   let marks = free;
-  if (!isNaN(marks) && marks >= 0 && marks <= 100) {
-    let Grade = "";
+ 
+  {
 
     if (marks >= 80) {
       Grade = "A+";
