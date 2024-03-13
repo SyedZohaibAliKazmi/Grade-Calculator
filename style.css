@@ -1,0 +1,29 @@
+* {
+  margin: 0%;
+}
+/* .grade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: coral;
+}
+.conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Ans{
+    font-size: 30px;
+    color: coral;
+}
