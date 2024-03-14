@@ -7,25 +7,24 @@ function enter() {
   // Given value is identify by 'free'
 
   let marks = free;
- 
-  {
 
+  {
     if (marks >= 80) {
-      Grade = "A+";
+      Grade = " ( A+ &nbspPass )";
     } else if (marks >= 70) {
-      Grade = "A";
+      Grade = "( A &nbspPass )";
     } else if (marks >= 60) {
-      Grade = "B";
+      Grade = "( B &nbspPass )";
     } else if (marks >= 50) {
-      Grade = "C";
+      Grade = "( C &nbspPass )";
     } else if (marks >= 40) {
-      Grade = "D";
+      Grade = "( D &nbspPass )";
     } else if (marks >= 33) {
-      Grade = "E";
+      Grade = "( E &nbspPass )";
     } else if (marks >= 32) {
-      Grade = "F";
+      Grade = "( F &nbspFail )";
     } else {
-      Grade = "F";
+      Grade = "( F &nbspFail )";
     }
     //   answer show in web page
 
